@@ -4,12 +4,13 @@
 // IIFE is a common pattern for creating local scopes.
 // It is used to avoid polluting the global environment and to create closures.
 
-
+// Named IIFE
 (function chai() {
     console.log("I am a function");
 })();
 
-( () => {
-    console.log("I am a function too");
-})();
+// Anonymous IIFE
+( (name) => {
+    console.log("I am a function too " + name);
+})("chai");
 
