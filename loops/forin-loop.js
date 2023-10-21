@@ -1,6 +1,6 @@
 // For in loop in JavaScript
 // It is used to iterate over the keys of an object.
-// for-in loops cannot be used with maps and sets.
+// for-in loops cannot be used with maps and sets.  
 // for-in loop is not recommended to use with arrays and strings.
 
 const myObject = {
