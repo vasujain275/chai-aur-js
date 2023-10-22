@@ -1,4 +1,5 @@
 // For Each Loop in JavaScript
+// Do not return any value
 
 const programmingLanguages = ["JavaScript", "Python", "C++", "Ruby"];
 
