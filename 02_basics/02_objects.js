@@ -1,11 +1,14 @@
 // IMPORTANT:
-// Symbols in Objects
-
-
+/*
+    Symbols are 
+        - Unique
+        - Immutable
+        - Used as keys in objects
+        - Used to hide properties of objects
+*/ 
 const mySym = Symbol('key1')
 
-
-// Object Literals
+// Object Declaration
 const JsUser = {
     name: 'Vasu',
     age: 18,
@@ -25,7 +28,7 @@ const JsUser = {
 
 JsUser.greetings = () => {
     console.log("Hello User!");
-}
+} // We can store functions in objects
 
 JsUser.greetings2 = function () {
     console.log(`Hello ${this.name}!`);
@@ -37,10 +40,10 @@ JsUser.greetings2 = function () {
 const obj1 = { 1: 'a', 2: 'b', 3: 'c' };
 const obj2 = { 1: 'd', 2: 'e', 3: 'f' };
 
-const obj3 = { ...obj1, ...obj2, 4: 'g' }
-// console.log(obj3);
+const obj3 = { ...obj1, ...obj2, 4: 'g' } // Spread Operator - it is used to merge two objects
+console.log(obj3);
 
-console.log(JsUser?.name);
+// console.log(JsUser?.name);
 
 
 const Course = {
