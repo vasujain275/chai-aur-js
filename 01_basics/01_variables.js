@@ -6,7 +6,7 @@ Never use var anymore as it is not block scoped
 */
 
 // 1. const 
-const name = 'John';
+const username = 'John';
 // name = 'Smith'; // TypeError: Assignment to constant variable.
 
 // 2. let - scope is block level
@@ -21,4 +21,4 @@ city = 'Boston';
 // Not recommended but we can declare a variable without using any keyword
 country = 'US';
 
-console.log(name, age, city, country);
+console.log(username, age, city, country);
